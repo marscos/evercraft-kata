@@ -8,7 +8,7 @@ Probably, doing combat through the `Character` class methods is going to be a bu
 
 I envisioned to make the `Character` class extensible through heritage, but could not appropriately work out the modeling so that both *Classes* and *Races* could simultaneously affect modifiers and properties of a character. I believe it was an oversight to not scan through the iterations at first so I could try to accomodate for *Races* from the start.
 
-Maybe a possible solution would involve defining *Classes* and *Races* as static entities that have their own functions to modify and make available to the `Character`'s.
+Maybe a possible solution would involve defining *Classes* and *Races* as static entities that have their own functions to modify and make available to the `Character`'s. This would also allow for a character's class and race to be more flexible if the game designers would like them so.
 
 I have also taken the liberty of changing the following requirement:
 > double Strength modifier on critical hits
